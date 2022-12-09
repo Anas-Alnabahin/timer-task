@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    background-color: black;
+} */
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+section{
+    display: grid;
+    grid-template-rows: 48px 170px 50px;
+    border: 1.5px solid #EEE;
+    border-radius: 5px;
+    width: 700px;
+    height: 280px;
+}
+
+.div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div1 button{
+    border: none;
+    background-color: white;
+}
+
+.btn1class{
+    opacity: 0.5;
+}
+
+.stopdiv, .timediv{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #eee;
+}
+
+.timediv{
+    border-bottom: 2px solid #1a73e8;
+}
+
+#stopWatch{
+    position: relative;
+}
+
+#clock{
+    position: absolute;
+    top: 13px;
+}
+
+.btn1class:hover{
+    opacity: 1;
+}
+
+.btn2class{
+    color: #1a73e8;
+    position: relative;
+}
+
+#sand{
+    position: absolute;
+    left: 50px;
+}
+
+#editdiv{
+    font-size: 50px;
+    direction: rtl;
+    padding: 25px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.div2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.div2 button{
+    background-color: white;
+    border: none;
+}
+.zoom-voice-div, .reset-start-div{
+    display: flex;
+    border-top: 1px solid #eee;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.zoom-voice-div{
+    justify-content: start;
+}
+
+.reset-start-div{
+    justify-content: end;
+}
+
+.zoom-voice-div img{
+    height: 25px;
+    width: 25px;
+    opacity: 0.5;
+}
+.zoom-voice-div img:hover {
+    cursor: pointer;
+}
+
+#resetBtn{
+    color: blue;
+    border: 1px solid #eee;
+    padding: 5px 15px;
+}
+
+#startBtn{
+    color: white;
+    background-color: #1a73e8;
+    padding: 5px 15px;
+}
+
